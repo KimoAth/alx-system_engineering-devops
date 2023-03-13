@@ -1,2 +1,2 @@
 #!/bin/bash 
-echo "usage: ${0##*/} directory" >&2 
+find . -type d -path './*' -print | wc -l 
